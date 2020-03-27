@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+  <body>
+    <div class="input-container">
+      <span class="input-label">Entry price:</span>
+      <input type="number" id="entry-price" class="input-value">
+    </div>
+
+    <div class="input-container">
+      <span class="input-label">Stop price:</span>
+      <input type="number" id="stop-price" class="input-value">
+    </div>
+
+    <div class="input-container">
+      <span class="input-label">Target:</span>
+      <input type="number" id="target" class="input-value">
+    </div>
+
+    <div class="input-container">
+      <span class="input-label">Portfolio value:</span>
+      <input type="number" id="portfolio-value" class="input-value">
+    </div>
+
+    <div class="input-container">
+      <span class="input-label">Percent to risk per trade:</span>
+      <input type="number" id="risk-percent" class="input-value">
+    </div>
+
+    <button id="calculate-button">Calculate</button>
+
+    <div id="entrySlDistanceContainer">
+      <span>Position size:</span>
+      <span id="entry-sl-distance"></span>
+    </div>
+
+    <div id="positionSizeContainer">
+      <span>Position size:</span>
+      <span id="position-size"></span>
+    </div>
+
+    <div id="rewardContainer">
+      <span>Reward:</span>
+      <span id="reward"></span>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
